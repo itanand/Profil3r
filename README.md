@@ -57,7 +57,7 @@ sudo python3 setup.py install
 #### ‍💻 Programming
 
 - [x] Github
-- [x] Pastebin
+- [x] Pastebin **[Profile Scraping]**
 - [x] Repl.it
 - [x] Cracked.to
 
