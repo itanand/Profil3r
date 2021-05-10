@@ -53,9 +53,9 @@ class Pastebin:
                     user_pastes_views = str(soup.find_all(class_='views')[1].get_text())
                     user_profile_creation_date = str(soup.find_all(class_='date-text')[0].get_text())
 
-                    account["profile_views"] = user_profile_views
-                    account["pastes_views"] = user_pastes_views
-                    account["profile_creation_date"] = user_profile_creation_date
+                    account["profile_views"] = {"name": "Profile Views", "value": user_profile_views}
+                    account["pastes_views"] = {"name": "Pastes Views", "value": user_pastes_views}
+                    account["profile_creation_date"] = {"name": "Creation Date", "value": user_profile_creation_date}
                 except:
                     pass
                 
@@ -75,7 +75,7 @@ class Pastebin:
                             "syntax": str(columns[4].get_text().strip())
                         })
 
-                    account["user_pastes"] = user_pastes
+                    account["user_pastes"] = {"name": "Pastes", "value": user_pastes}
                 except:
                     pass
                 

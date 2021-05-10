@@ -16,9 +16,17 @@ def print_results(self, element):
 
         # General case
         if element != "email":
-    
+            
+            # Data scraped on the websites
             for account in element_results["accounts"]:
-                print(Colors.BOLD + "   ├──" + Colors.ENDC + Colors.HEADER + account["value"] + Colors.ENDC)
+                print(Colors.BOLD + "   └──" + Colors.ENDC + Colors.HEADER + account["value"] + Colors.ENDC)
+
+                # print scraped element(s) (except value that was already printed)
+                for index, element in list(account.items())[1:]:
+                    if not isinstance(element["value"], list):
+                        print(Colors.BOLD + "   |   ├── " + Colors.ENDC + Colors.HEADER + element["name"] + " : " + element["value"] + Colors.ENDC)
+                    else:
+                        print(Colors.BOLD + "   |   ├── " + Colors.ENDC + Colors.HEADER + element["name"] + " : " + str(len(element["value"])) + " results" + Colors.ENDC)
         
         # Emails case
         else:
