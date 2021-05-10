@@ -41,7 +41,7 @@ sudo python3 setup.py install
 - [x] Emails
 
 #### 🌐 Social
-- [x] Instagram
+- [x] Instagram **[Profile Scraping]**
 - [x] Facebook
 - [x] Twitter
 - [x] Tiktok
