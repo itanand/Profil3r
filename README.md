@@ -43,7 +43,7 @@ sudo python3 setup.py install
 #### 🌐 Social
 - [x] Instagram **[Profile Scraping]**
 - [x] Facebook
-- [x] Twitter
+- [x] Twitter **[Profile Scraping]**
 - [x] Tiktok
 - [x] Pinterest
 - [x] Linktr.ee
@@ -56,7 +56,7 @@ sudo python3 setup.py install
 
 #### ‍💻 Programming
 
-- [x] Github
+- [x] Github **[Profile Scraping]**
 - [x] Pastebin **[Profile Scraping]**
 - [x] Repl.it
 - [x] Cracked.to

@@ -40,7 +40,7 @@
             "type": "social"
         },
         "twitter": {
-            "rate_limit": 1000,
+            "rate_limit": 1500,
             "format": "https://twitter.com/{permutation}",
             "type": "social"
         },
