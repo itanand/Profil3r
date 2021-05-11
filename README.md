@@ -1,22 +1,30 @@
-# Profil3r
+<p align=center>
+  <span> Find the profiles of a person on social networks, as well as their email addresses</span>
+  <br>
+  <a href="https://www.buymeacoffee.com/givocefo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174" ></a></br>
+  <a target="_blank" href="https://www.python.org/downloads/" title="Python version"><img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"></a>
+  <a target="_blank" href="LICENSE" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
+  <a target="_blank" href="https://twitter.com/Rog3rSm1th" title="Python version"><img src="https://img.shields.io/badge/-@Rog3rSm1th-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/Rog3rSm1th"></a>
+</p>
 
-For educational purposes only.
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<p align="center">
+  <a href="#installation">Installation</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#features">Features</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#report">Report</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#contact">Contact</a>
+</p>
 
-<div align="center">
-<a href="https://www.buymeacoffee.com/givocefo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
-[![Twitter Badge](https://img.shields.io/badge/-@Rog3rSm1th-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/Rog3rSm1th)](https://twitter.com/Rog3rSm1th)
-
-</div>
 
 Profil3r is an [OSINT](https://en.wikipedia.org/wiki/Open-source_intelligence) tool that allows you to find potential profiles of a person on social networks, as well as their email addresses. This program also alerts you to the presence of a data leak for the found emails.
 
-![](https://i.imgur.com/hzmfCg0.gif)
+![](https://i.imgur.com/73ZyfKE.gif)
 ## 💡 Prerequisite
 [Python 3](https://www.python.org/)
 
-## 🛠️ Installation
+## Installation
 
 Install PyInquirer and jinja2 :
 
@@ -41,53 +49,70 @@ sudo python3 setup.py install
 - [x] Emails
 
 #### 🌐 Social
-- [x] Instagram **[Profile Scraping]**
-- [x] Facebook
-- [x] Twitter **[Profile Scraping]**
-- [x] Tiktok
-- [x] Pinterest
-- [x] Linktr.ee
-- [x] MySpace
+
+|Service      | Profile Scraping |
+|-------------|------------------|
+| Instagram   | Yes ✔️            |
+| Facebook    | No               |
+| Twitter     | No               |
+| Tiktok      | No               |
+| Pinterest   | No               |
+| Linktr.ee   | No               |
+| MySpace     | No               |
 
 #### 🎵 Music
 
-- [x] Soundcloud
-- [x] Spotify
+|Service      | Profile Scraping |
+|-------------|------------------|
+| Soundcloud  | No               |
+| Spotify     | No               |
 
 #### ‍💻 Programming
 
-- [x] Github **[Profile Scraping]**
-- [x] Pastebin **[Profile Scraping]**
-- [x] Repl.it
-- [x] Cracked.to
+|Service      | Profile Scraping |
+|-------------|------------------|
+| Github      | Yes ✔️            |
+| Pastebin    | Yes ✔️            |
+| Repl.it     | No               |
+| Cracked.to  | No               |
 
 #### 💬 Forum
 
-- [x] 0x00sec.org
-- [x] Jeuxvideo.com
-- [x] Hackernews
+|Service        | Profile Scraping |
+|---------------|------------------|
+| 0x00sec.org   | No               |
+| Hackernews    | No               |
+| Jeuxvideo.com | No               |
 
 #### 🗣️ Tchat
 
-- [x] Skype
+|Service        | Profile Scraping |
+|---------------|------------------|
+| Skype         | No               |
 
 #### 📺 Entertainment
 
-- [x] Dailymotion
-- [x] Vimeo
+|Service        | Profile Scraping |
+|---------------|------------------|
+| Dailymotion   | No               |
+| Vimeo         | No               |
 
 #### 🚫 Porn
 
-- [x] PornHub
-- [x] RedTube
-- [x] XVideos
+|Service        | Profile Scraping |
+|---------------|------------------|
+| PornHub       | No               |
+| RedTube       | No               |
+| XVideos       | No               |
 
 #### 💸 Money
 
-- [x] BuyMeACoffee
-- [x] Patreon
+|Service        | Profile Scraping |
+|---------------|------------------|
+| BuyMeACoffee  | No               |
+| Patreon       | No               |
 
-## 📖 Report
+## Report
 
 #### JSON
 
