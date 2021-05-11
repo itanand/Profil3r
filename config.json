@@ -96,7 +96,7 @@
         },
         "pinterest": {
             "rate_limit": 1000,
-            "format": "https://pinterest.fr/{permutation}",
+            "format": "https://pinterest.com/{permutation}",
             "type": "social"
         },
         "hackernews": {
