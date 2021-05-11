@@ -7,7 +7,7 @@
     },
     "report_elements": [
         "email",
-        "instagram",
+        "facebook",
         "twitter"
     ],
     "json_report_path": "./reports/json/{}.json",
