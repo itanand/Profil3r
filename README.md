@@ -82,7 +82,7 @@ sudo python3 setup.py install
 |---------------|------------------|
 | 0x00sec.org   | No               |
 | Hackernews    | No               |
-| Jeuxvideo.com | No               |
+| Jeuxvideo.com | Yes ✔            |
 
 #### 🗣️ Tchat
 

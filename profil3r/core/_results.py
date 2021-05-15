@@ -19,7 +19,7 @@ def print_results(self, element):
             
             # Data scraped on the websites
             for account in element_results["accounts"]:
-                print(Colors.BOLD + "   └──" + Colors.ENDC + Colors.OKCYAN + account["value"] + Colors.ENDC)
+                print(Colors.BOLD + "   └── " + Colors.ENDC + Colors.OKCYAN + account["value"] + Colors.ENDC)
 
                 # print scraped element(s) (except value that was already printed)
                 for index, element in list(account.items())[1:]:
