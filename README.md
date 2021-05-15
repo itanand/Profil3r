@@ -57,7 +57,7 @@ sudo python3 setup.py install
 | Twitter     | No               |
 | Tiktok      | No               |
 | Pinterest   | No               |
-| Linktr.ee   | No               |
+| Linktr.ee   | Yes ✔️            |
 | MySpace     | No               |
 
 #### 🎵 Music

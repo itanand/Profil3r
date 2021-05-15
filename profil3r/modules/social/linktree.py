@@ -1,4 +1,5 @@
 import requests
+from bs4 import BeautifulSoup
 import time
 
 class LinkTree:
@@ -38,7 +39,34 @@ class LinkTree:
             
             # If the account exists
             if r.status_code == 200:
-                linktree_usernames["accounts"].append({"value": username})
+                # Account object
+                account = {}
+
+                # Get the username
+                account["value"] = username
+                
+                # Parse HTML response content with beautiful soup 
+                soup = BeautifulSoup(r.text, 'html.parser')
+                
+                # Scrape the user links
+                try:
+                    user_services= []
+
+                    services = soup.find_all("div", {"data-testid": "StyledContainer"})
+
+                    for service in  services[1:]:
+                        user_services.append({
+                            "service": str(service.get_text().strip()),
+                            "link": str(service.find_all('a', href=True)[0]['href'].strip())
+                        })
+
+                    account["user_services"] = {"name": "Services", "value": user_services}
+                except:
+                    pass
+                
+                # Append the account to the accounts table
+                linktree_usernames["accounts"].append(account)
+
             time.sleep(self.delay)
         
         return linktree_usernames
