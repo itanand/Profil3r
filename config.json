@@ -135,7 +135,7 @@
             "type": "porn"
         },
         "myspace": {
-            "rate_limit": 1000,
+            "rate_limit": 2000,
             "format": "https://myspace.com/{permutation}",
             "type": "social"
         },
