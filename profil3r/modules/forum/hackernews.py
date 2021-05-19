@@ -1,4 +1,5 @@
 import requests
+from bs4 import BeautifulSoup
 import time
 
 class Hackernews:
@@ -38,7 +39,28 @@ class Hackernews:
             
             # If the account exists
             if r.text.find("No such user.") != 0:
-                hackernews_usernames["accounts"].append({"value": username})
+                # Account object
+                account = {}
+
+                # Get the username
+                account["value"] = username
+                
+                # Parse HTML response content with beautiful soup 
+                soup = BeautifulSoup(r.text, 'html.parser')
+                
+                # Scrape the user informations
+                try:
+                    user_creation_date = str(soup.find_all("table")[2].find_all("td")[3].get_text()).strip() if soup.find_all("table") else None
+                    user_karma = str(soup.find_all("table")[2].find_all("td")[5].get_text()).strip() if soup.find_all("table") else None
+
+                    account["creation_date"] = {"name": "Creation Date", "value": user_creation_date}
+                    account["karma"] = {"name": "Karma", "value": user_karma}
+                except:
+                    pass
+                
+                # Append the account to the accounts table
+                hackernews_usernames["accounts"].append(account)
+
             time.sleep(self.delay)
         
         return hackernews_usernames

@@ -81,7 +81,7 @@ sudo python3 setup.py install
 |Service        | Profile Scraping |
 |---------------|------------------|
 | 0x00sec.org   | No               |
-| Hackernews    | No               |
+| Hackernews    | Yes ✔️            |
 | Jeuxvideo.com | Yes ✔            |
 
 #### 🗣️ Tchat
