@@ -101,7 +101,7 @@ sudo python3 setup.py install
 
 |Service        | Profile Scraping |
 |---------------|------------------|
-| PornHub       | No               |
+| PornHub       | Yes ✔            |
 | RedTube       | No               |
 | XVideos       | No               |
 
