@@ -153,6 +153,11 @@
             "rate_limit": 1000,
             "format": "https://www.patreon.com/{permutation}",
             "type": "money"
+        },
+        "flickr": {
+            "rate_limit": 1000,
+            "format": "https://www.flickr.com/photos/{permutation}",
+            "type": "social"
         }
     }
 }

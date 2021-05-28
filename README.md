@@ -54,11 +54,12 @@ sudo python3 setup.py install
 |-------------|------------------|
 | Instagram   | Yes ✔️            |
 | Facebook    | No               |
-| Twitter     | No               |
+| Twitter     | Yes ✔️            |
 | Tiktok      | No               |
 | Pinterest   | No               |
 | Linktr.ee   | Yes ✔️            |
 | MySpace     | Yes ✔️            |
+| Flickr      | Yes ✔️            |
 
 #### 🎵 Music
 

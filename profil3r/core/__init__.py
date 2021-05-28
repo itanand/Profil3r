@@ -12,7 +12,7 @@ class Core(object):
     from ._logo import print_logo
     from ._argparse import parse_arguments
     
-    from .services._social import facebook, twitter, instagram, tiktok, pinterest, linktree, myspace
+    from .services._social import facebook, twitter, instagram, tiktok, pinterest, linktree, myspace, flickr
     from .services._forum import zeroxzerozerosec, jeuxvideo, hackernews, crackedto
     from .services._programming import github, pastebin, replit
     from .services._tchat import skype
@@ -43,6 +43,7 @@ class Core(object):
             "pinterest":         {"method" : self.pinterest},
             "linktree":          {"method" : self.linktree},
             "myspace":           {"method" : self.myspace},
+            "flickr":            {"method" : self.flickr},
             # Music
             "soundcloud":        {"method" : self.soundcloud},
             "spotify":           {"method" : self.spotify},
