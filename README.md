@@ -67,6 +67,7 @@ sudo python3 setup.py install
 |-------------|------------------|
 | Soundcloud  | No               |
 | Spotify     | No               |
+| Smule       | No               |
 
 #### ‍💻 Programming
 

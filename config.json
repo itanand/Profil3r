@@ -158,6 +158,11 @@
             "rate_limit": 1000,
             "format": "https://www.flickr.com/photos/{permutation}",
             "type": "social"
+        },
+        "smule": {
+            "rate_limit": 1000,
+            "format": "https://smule.com/{permutation}",
+            "type": "music"
         }
     }
 }
