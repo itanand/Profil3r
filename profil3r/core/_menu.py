@@ -2,9 +2,8 @@ from PyInquirer import prompt, Separator
 
 # The menu displays a list of checkboxes, which allows the user to select the separators and modules he wants to use
 def menu(self):
-    #
-    # SEPARATORS
-    #
+
+    # Separators
 
     # Get a list of all existing separators
     separators = self.CONFIG["separators"]
@@ -27,14 +26,12 @@ def menu(self):
 
     self.separators = prompt(separators_menu)["separators"]
 
-    #
-    # SERVICES
-    #
+    # Services
 
-    # Get a list of all existing modules
-    modules_list = sorted([module for module in self.CONFIG["plateform"]])
+    # Get a list of all enabled modules
+    modules_list = sorted([module for module in self.CONFIG["plateform"] if self.CONFIG["plateform"][module]["enabled"] == "yes"])
     # Create a list of all existing categories
-    categories = sorted(list(set([content["type"] for module, content in self.CONFIG["plateform"].items()])))
+    categories = sorted(list(set([content["type"] for module, content in self.CONFIG["plateform"].items() if module in modules_list])))    
     
     services_menu = [
         {
