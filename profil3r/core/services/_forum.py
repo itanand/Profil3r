@@ -2,6 +2,7 @@ from profil3r.modules.forum.zeroxzerozerosec import ZeroxZeroZeroSec
 from profil3r.modules.forum.jeuxvideo import JeuxVideo
 from profil3r.modules.forum.hackernews import Hackernews
 from profil3r.modules.forum.crackedto import CrackedTo
+from profil3r.modules.forum.lesswrong import LessWrong
 
 # 0x00sec
 def zeroxzerozerosec(self):
@@ -26,3 +27,9 @@ def crackedto(self):
     self.result["crackedto"] = CrackedTo(self.CONFIG, self.permutations_list).search() 
     # print results
     self.print_results("crackedto")
+
+# LessWrong
+def lesswrong(self):
+    self.result["lesswrong"] = LessWrong(self.CONFIG, self.permutations_list).search() 
+    # print results
+    self.print_results("lesswrong")

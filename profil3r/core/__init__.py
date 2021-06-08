@@ -13,7 +13,7 @@ class Core(object):
     from ._argparse import parse_arguments
     
     from .services._social import facebook, twitter, instagram, tiktok, pinterest, linktree, myspace, flickr
-    from .services._forum import zeroxzerozerosec, jeuxvideo, hackernews, crackedto
+    from .services._forum import zeroxzerozerosec, jeuxvideo, hackernews, crackedto, lesswrong
     from .services._programming import github, pastebin, replit
     from .services._tchat import skype
     from .services._music import soundcloud, spotify, smule
@@ -25,7 +25,7 @@ class Core(object):
     from .services._domain import domain
 
     def __init__(self, config_path):
-        self.version = "1.3.10"
+        self.version = "1.3.11"
 
         with open(config_path, 'r') as f:
             self.CONFIG = json.load(f)
@@ -58,6 +58,7 @@ class Core(object):
             "jeuxvideo.com":     {"method" : self.jeuxvideo},
             "hackernews":        {"method" : self.hackernews},
             "crackedto":         {"method" : self.crackedto},
+            "lesswrong":         {"method" : self.lesswrong},
             # Tchat
             "skype":             {"method" : self.skype},
             # Entertainment

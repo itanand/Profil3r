@@ -75,6 +75,7 @@ sudo python3 setup.py install
 |-------------|------------------|
 | Github      | Yes ✔️            |
 | Pastebin    | Yes ✔️            |
+| LessWrong   | Yes ✔️            |
 | Repl.it     | No               |
 | Cracked.to  | No               |
 

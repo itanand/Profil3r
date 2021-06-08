@@ -197,6 +197,12 @@
             "format": "https://about.me/{permutation}",
             "type": "hosting",
             "enabled": "yes"
+        },
+        "lesswrong": {
+            "rate_limit": 1000,
+            "format": "https://www.lesswrong.com/users/{permutation}",
+            "type": "forum",
+            "enabled": "yes"
         }
     }
 }
