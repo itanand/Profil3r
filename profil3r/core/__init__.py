@@ -21,10 +21,11 @@ class Core(object):
     from .services._email import email
     from .services._porn import pornhub, redtube, xvideos
     from .services._money import buymeacoffee, patreon
+    from .services._hosting import aboutme
     from .services._domain import domain
 
     def __init__(self, config_path):
-        self.version = "1.3.9"
+        self.version = "1.3.10"
 
         with open(config_path, 'r') as f:
             self.CONFIG = json.load(f)
@@ -69,6 +70,8 @@ class Core(object):
             # Money
             "buymeacoffee":      {"method" : self.buymeacoffee},
             "patreon":           {"method" : self.patreon},
+            # Hosting
+            "aboutme":           {"method" : self.aboutme},
             # Domain
             "domain":            {"method" : self.domain}
         }

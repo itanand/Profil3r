@@ -114,6 +114,12 @@ sudo python3 setup.py install
 | BuyMeACoffee  | No               |
 | Patreon       | No               |
 
+#### 🕸️ Web Hosting
+
+|Service        | Profile Scraping |
+|---------------|------------------|
+| AboutMe       | Yes ✔            |
+
 ## Report
 
 #### JSON

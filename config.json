@@ -191,6 +191,12 @@
             "format": "https://smule.com/{permutation}",
             "type": "music",
             "enabled": "yes"
+        },
+        "aboutme": {
+            "rate_limit": 1000,
+            "format": "https://about.me/{permutation}",
+            "type": "hosting",
+            "enabled": "yes"
         }
     }
 }
