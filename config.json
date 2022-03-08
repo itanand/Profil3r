@@ -6,8 +6,13 @@
         "Underscore": "_"
     },
     "report_elements": [
+        "domain",
         "email",
+        "dailymotion",
+        "github",
         "facebook",
+        "instagram",
+        "pinterest",
         "twitter"
     ],
     "json_report_path": "./reports/json/{}.json",
