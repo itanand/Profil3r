@@ -1,10 +1,10 @@
 <p align=center>
   <span> Find the profiles of a person on social networks, as well as their email addresses</span>
   <br>
-  <a href="https://www.buymeacoffee.com/givocefo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174" ></a></br>
+  <a href="https://www.buymeacoffee.com/itanand" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174" ></a></br>
   <a target="_blank" href="https://www.python.org/downloads/" title="Python version"><img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"></a>
   <a target="_blank" href="LICENSE" title="License: MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
-  <a target="_blank" href="https://twitter.com/Rog3rSm1th" title="Python version"><img src="https://img.shields.io/badge/-@Rog3rSm1th-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/Rog3rSm1th"></a>
+  <a target="_blank" href="https://twitter.com/itanand" title="Python version"><img src="https://img.shields.io/badge/-@itanand-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/itanand"></a>
 </p>
 
 <p align="center">
@@ -161,4 +161,4 @@ This project is under the MIT license.
 
 ## Contact 
 
-for any remark, suggestion or job offer, you can contact me at r0g3r5@protonmail.com or on twitter [@Rog3rSm1th](https://twitter.com/Rog3rSm1th)
+for any remark, suggestion or job offer, you can contact me at hey.itanand@gmail.com or on twitter [@itanand](https://twitter.com/itanand)
